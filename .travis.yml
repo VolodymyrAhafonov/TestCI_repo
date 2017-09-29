@@ -1,5 +1,9 @@
 language:cpp
 compiler:gcc
 
+addons:
+  apt:
+    packages: libprotobuf-dev
+
 script:
 ./hello_world.sh
