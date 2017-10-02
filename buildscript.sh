@@ -2,6 +2,8 @@
 
 echo Build caffe
 
+cp Makefile.config caffe/
+
 cd caffe
 
 make all
