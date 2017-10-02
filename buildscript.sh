@@ -18,6 +18,12 @@ mv src/caffe/proto/caffe.pb.h include/caffe/proto
 
 echo caffe.pb.h generated
 
+echo run test
+
+make runtest
+
+echo test complete
+
 #echo Building TrimapDetector
 
 #cd ../..
