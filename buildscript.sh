@@ -24,12 +24,12 @@ make runtest
 
 echo test complete
 
-#echo Building TrimapDetector
+echo Building TrimapDetector
 
-#cd ../..
+cd ..
 
-#cmake CMakeLists.txt
+cmake CMakeLists.txt
 
-#make
+make
 
 echo build completed
