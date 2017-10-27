@@ -2,17 +2,8 @@ language: cpp
 compiler: gcc
 
 before_install:
-- sudo apt-get install libprotobuf-dev protobuf-compiler
-- sudo apt-get install libleveldb-dev
-- sudo apt-get install libsnappy-dev
-- sudo apt-get install libopencv-dev
-- sudo apt-get install libhdf5-serial-dev
-- sudo apt-get install libopenblas-dev
-- sudo apt-get install --no-install-recommends libboost-all-dev
-- sudo apt-get install libgflags-dev 
-- sudo apt-get install libgoogle-glog-dev 
-- sudo apt-get install liblmdb-dev
+- sudo apt-get install zip
 
 script:
-- ./buildscript.sh
-- ./hello_world.sh
+- g++ main.cpp
+- ./a.out
